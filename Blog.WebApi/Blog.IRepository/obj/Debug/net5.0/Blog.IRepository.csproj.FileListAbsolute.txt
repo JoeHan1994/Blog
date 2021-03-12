@@ -1,0 +1,15 @@
+D:\DotNet5\Blog.WebApi\Blog.IRepository\bin\Debug\net5.0\Blog.IRepository.deps.json
+D:\DotNet5\Blog.WebApi\Blog.IRepository\bin\Debug\net5.0\Blog.IRepository.dll
+D:\DotNet5\Blog.WebApi\Blog.IRepository\bin\Debug\net5.0\ref\Blog.IRepository.dll
+D:\DotNet5\Blog.WebApi\Blog.IRepository\bin\Debug\net5.0\Blog.IRepository.pdb
+D:\DotNet5\Blog.WebApi\Blog.IRepository\bin\Debug\net5.0\Blog.Model.dll
+D:\DotNet5\Blog.WebApi\Blog.IRepository\bin\Debug\net5.0\Blog.Model.pdb
+D:\DotNet5\Blog.WebApi\Blog.IRepository\obj\Debug\net5.0\Blog.IRepository.csprojAssemblyReference.cache
+D:\DotNet5\Blog.WebApi\Blog.IRepository\obj\Debug\net5.0\Blog.IRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet5\Blog.WebApi\Blog.IRepository\obj\Debug\net5.0\Blog.IRepository.AssemblyInfoInputs.cache
+D:\DotNet5\Blog.WebApi\Blog.IRepository\obj\Debug\net5.0\Blog.IRepository.AssemblyInfo.cs
+D:\DotNet5\Blog.WebApi\Blog.IRepository\obj\Debug\net5.0\Blog.IRepository.csproj.CoreCompileInputs.cache
+D:\DotNet5\Blog.WebApi\Blog.IRepository\obj\Debug\net5.0\Blog.IRepository.csproj.CopyComplete
+D:\DotNet5\Blog.WebApi\Blog.IRepository\obj\Debug\net5.0\Blog.IRepository.dll
+D:\DotNet5\Blog.WebApi\Blog.IRepository\obj\Debug\net5.0\ref\Blog.IRepository.dll
+D:\DotNet5\Blog.WebApi\Blog.IRepository\obj\Debug\net5.0\Blog.IRepository.pdb

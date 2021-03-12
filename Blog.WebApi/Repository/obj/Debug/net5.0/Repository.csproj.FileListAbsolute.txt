@@ -1,0 +1,5 @@
+D:\DotNet5\Blog.WebApi\Repository\bin\Debug\net5.0\Blog.IRepository.dll
+D:\DotNet5\Blog.WebApi\Repository\bin\Debug\net5.0\Blog.Model.dll
+D:\DotNet5\Blog.WebApi\Repository\obj\Debug\net5.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet5\Blog.WebApi\Repository\obj\Debug\net5.0\Repository.AssemblyInfoInputs.cache
+D:\DotNet5\Blog.WebApi\Repository\obj\Debug\net5.0\Repository.AssemblyInfo.cs

@@ -1,0 +1,406 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\DotNet5\\Blog.WebApi\\Blog.WebApi\\Blog.WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj",
+        "projectName": "Blog.Model",
+        "projectPath": "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj",
+        "packagesPath": "C:\\Users\\v-joehan\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNet5\\Blog.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v-joehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.2.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.21079.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj",
+        "projectName": "Blog.IRepository",
+        "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj",
+        "packagesPath": "C:\\Users\\v-joehan\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v-joehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj": {
+                "projectPath": "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.21079.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DotNet5\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNet5\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj",
+        "projectName": "Blog.IService",
+        "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj",
+        "packagesPath": "C:\\Users\\v-joehan\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v-joehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj": {
+                "projectPath": "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.21079.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DotNet5\\Blog.WebApi\\Blog.Service\\Blog.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNet5\\Blog.WebApi\\Blog.Service\\Blog.Service.csproj",
+        "projectName": "Blog.Service",
+        "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.Service\\Blog.Service.csproj",
+        "packagesPath": "C:\\Users\\v-joehan\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNet5\\Blog.WebApi\\Blog.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v-joehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj": {
+                "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj"
+              },
+              "D:\\DotNet5\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj": {
+                "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.21079.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DotNet5\\Blog.WebApi\\Blog.WebApi\\Blog.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNet5\\Blog.WebApi\\Blog.WebApi\\Blog.WebApi.csproj",
+        "projectName": "Blog.WebApi",
+        "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.WebApi\\Blog.WebApi.csproj",
+        "packagesPath": "C:\\Users\\v-joehan\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNet5\\Blog.WebApi\\Blog.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v-joehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj": {
+                "projectPath": "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj"
+              },
+              "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj": {
+                "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj"
+              },
+              "D:\\DotNet5\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj": {
+                "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj"
+              },
+              "D:\\DotNet5\\Blog.WebApi\\Blog.Service\\Blog.Service.csproj": {
+                "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.Service\\Blog.Service.csproj"
+              },
+              "D:\\DotNet5\\Blog.WebApi\\Repository\\Blog.Repository.csproj": {
+                "projectPath": "D:\\DotNet5\\Blog.WebApi\\Repository\\Blog.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.21079.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DotNet5\\Blog.WebApi\\Repository\\Blog.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DotNet5\\Blog.WebApi\\Repository\\Blog.Repository.csproj",
+        "projectName": "Blog.Repository",
+        "projectPath": "D:\\DotNet5\\Blog.WebApi\\Repository\\Blog.Repository.csproj",
+        "packagesPath": "C:\\Users\\v-joehan\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNet5\\Blog.WebApi\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v-joehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj": {
+                "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "SqlSugar.IOC": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.21079.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

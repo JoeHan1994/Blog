@@ -1,0 +1,12 @@
+D:\DotNet5\Blog.Model\bin\Debug\net5.0\Blog.Model.deps.json
+D:\DotNet5\Blog.Model\bin\Debug\net5.0\Blog.Model.dll
+D:\DotNet5\Blog.Model\bin\Debug\net5.0\ref\Blog.Model.dll
+D:\DotNet5\Blog.Model\bin\Debug\net5.0\Blog.Model.pdb
+D:\DotNet5\Blog.Model\obj\Debug\net5.0\Blog.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet5\Blog.Model\obj\Debug\net5.0\Blog.Model.AssemblyInfoInputs.cache
+D:\DotNet5\Blog.Model\obj\Debug\net5.0\Blog.Model.AssemblyInfo.cs
+D:\DotNet5\Blog.Model\obj\Debug\net5.0\Blog.Model.csproj.CoreCompileInputs.cache
+D:\DotNet5\Blog.Model\obj\Debug\net5.0\Blog.Model.dll
+D:\DotNet5\Blog.Model\obj\Debug\net5.0\ref\Blog.Model.dll
+D:\DotNet5\Blog.Model\obj\Debug\net5.0\Blog.Model.pdb
+D:\DotNet5\Blog.Model\obj\Debug\net5.0\Blog.Model.csprojAssemblyReference.cache

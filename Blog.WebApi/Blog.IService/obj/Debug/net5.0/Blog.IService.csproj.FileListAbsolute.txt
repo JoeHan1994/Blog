@@ -1,0 +1,15 @@
+D:\DotNet5\Blog.WebApi\Blog.IService\bin\Debug\net5.0\Blog.IService.deps.json
+D:\DotNet5\Blog.WebApi\Blog.IService\bin\Debug\net5.0\Blog.IService.dll
+D:\DotNet5\Blog.WebApi\Blog.IService\bin\Debug\net5.0\ref\Blog.IService.dll
+D:\DotNet5\Blog.WebApi\Blog.IService\bin\Debug\net5.0\Blog.IService.pdb
+D:\DotNet5\Blog.WebApi\Blog.IService\bin\Debug\net5.0\Blog.Model.dll
+D:\DotNet5\Blog.WebApi\Blog.IService\bin\Debug\net5.0\Blog.Model.pdb
+D:\DotNet5\Blog.WebApi\Blog.IService\obj\Debug\net5.0\Blog.IService.csprojAssemblyReference.cache
+D:\DotNet5\Blog.WebApi\Blog.IService\obj\Debug\net5.0\Blog.IService.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet5\Blog.WebApi\Blog.IService\obj\Debug\net5.0\Blog.IService.AssemblyInfoInputs.cache
+D:\DotNet5\Blog.WebApi\Blog.IService\obj\Debug\net5.0\Blog.IService.AssemblyInfo.cs
+D:\DotNet5\Blog.WebApi\Blog.IService\obj\Debug\net5.0\Blog.IService.csproj.CoreCompileInputs.cache
+D:\DotNet5\Blog.WebApi\Blog.IService\obj\Debug\net5.0\Blog.IService.csproj.CopyComplete
+D:\DotNet5\Blog.WebApi\Blog.IService\obj\Debug\net5.0\Blog.IService.dll
+D:\DotNet5\Blog.WebApi\Blog.IService\obj\Debug\net5.0\ref\Blog.IService.dll
+D:\DotNet5\Blog.WebApi\Blog.IService\obj\Debug\net5.0\Blog.IService.pdb
