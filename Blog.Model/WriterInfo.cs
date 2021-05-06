@@ -9,11 +9,11 @@ namespace Blog.Model
 {
    public  class WriterInfo:BaseId
     {
-        [SugarColumn(ColumnName ="nvarchar(12)")]
+        [SugarColumn(ColumnDataType ="nvarchar(12)")]
         public string Name { get; set; }
-        [SugarColumn(ColumnName = "nvarchar(16)")]
+        [SugarColumn(ColumnDataType = "nvarchar(16)")]
         public string UserName { get; set; }
-        [SugarColumn(ColumnName = "nvarchar(64)")]
+        [SugarColumn(ColumnDataType = "nvarchar(64)")]
         public string UserPwd { get; set; }
     }
 }

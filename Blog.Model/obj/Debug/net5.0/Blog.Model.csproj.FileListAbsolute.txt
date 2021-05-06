@@ -10,3 +10,15 @@ D:\DotNet5\Blog.Model\obj\Debug\net5.0\Blog.Model.dll
 D:\DotNet5\Blog.Model\obj\Debug\net5.0\ref\Blog.Model.dll
 D:\DotNet5\Blog.Model\obj\Debug\net5.0\Blog.Model.pdb
 D:\DotNet5\Blog.Model\obj\Debug\net5.0\Blog.Model.csprojAssemblyReference.cache
+D:\v-joehan\BLOG\Blog.Model\bin\Debug\net5.0\Blog.Model.deps.json
+D:\v-joehan\BLOG\Blog.Model\bin\Debug\net5.0\Blog.Model.dll
+D:\v-joehan\BLOG\Blog.Model\bin\Debug\net5.0\ref\Blog.Model.dll
+D:\v-joehan\BLOG\Blog.Model\bin\Debug\net5.0\Blog.Model.pdb
+D:\v-joehan\BLOG\Blog.Model\obj\Debug\net5.0\Blog.Model.csprojAssemblyReference.cache
+D:\v-joehan\BLOG\Blog.Model\obj\Debug\net5.0\Blog.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\v-joehan\BLOG\Blog.Model\obj\Debug\net5.0\Blog.Model.AssemblyInfoInputs.cache
+D:\v-joehan\BLOG\Blog.Model\obj\Debug\net5.0\Blog.Model.AssemblyInfo.cs
+D:\v-joehan\BLOG\Blog.Model\obj\Debug\net5.0\Blog.Model.csproj.CoreCompileInputs.cache
+D:\v-joehan\BLOG\Blog.Model\obj\Debug\net5.0\Blog.Model.dll
+D:\v-joehan\BLOG\Blog.Model\obj\Debug\net5.0\ref\Blog.Model.dll
+D:\v-joehan\BLOG\Blog.Model\obj\Debug\net5.0\Blog.Model.pdb
