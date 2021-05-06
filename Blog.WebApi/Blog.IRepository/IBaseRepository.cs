@@ -12,6 +12,7 @@ namespace Blog.IRepository
         Task<bool> DeleteAsync(int Id);
         Task<bool> EditAsync(TEntity entity);
         Task<TEntity> FindAsync(int Id);
+        Task<TEntity> FindAsync(Expression<Func<TEntity, bool>> func);
         /// <summary>
         /// Get all data
         /// </summary>
@@ -40,6 +41,8 @@ namespace Blog.IRepository
         /// <param name="total"></param>
         /// <returns></returns>
         Task<List<TEntity>> QueryAsync(Expression<Func<TEntity, bool>> func, int page, int size, RefAsync<int> total);
+
+
 
     }
 }

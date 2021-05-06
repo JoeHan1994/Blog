@@ -1,6 +1,7 @@
 ﻿using Blog.IService;
 using Blog.Model;
 using Blog.WebApi.Utility.APIResult;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -12,6 +13,7 @@ namespace Blog.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class TypeController : ControllerBase
     {
         private readonly ITypeInfoService _typeInfoService;
@@ -25,7 +27,7 @@ namespace Blog.WebApi.Controllers
         public async Task<ActionResult<APIResult>> GetType()
         {
             var types = await _typeInfoService.QueryAsync();
-            if (types == null)
+            if (types.Count == 0)
             {
                 return APIResultHelper.Error("Not Found any data");
             }

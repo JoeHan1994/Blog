@@ -1,26 +1,35 @@
-﻿using Blog.IService;
+﻿using AutoMapper;
+using Blog.IService;
 using Blog.Model;
+using Blog.Model.Dto;
 using Blog.WebApi.Utility.APIResult;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using SqlSugar;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Blog.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class BlogNewsController : ControllerBase
     {
         private readonly IBlogNewsService _blogNewsService;
-        public BlogNewsController(IBlogNewsService blogNewsService)
+        private readonly IMapper _mapper;
+        public BlogNewsController(IBlogNewsService blogNewsService, IMapper mapper)
         {
             this._blogNewsService = blogNewsService;
+            this._mapper = mapper;
         }
 
         [HttpGet("BlogNews")]
         public async Task<ActionResult<APIResult>> GetBlogNews()
         {
-            var data = await _blogNewsService.QueryAsync();
+            var id = Convert.ToInt32(this.User.FindFirst("Id").Value);
+            var data = await _blogNewsService.QueryAsync(c=>c.WriterId == id);
             if(data == null)
             {
                 return APIResultHelper.Error("Not Found any data");
@@ -38,7 +47,7 @@ namespace Blog.WebApi.Controllers
                 Title = title,
                 Content = content,
                 TypeId = typeId,
-                WriterId = 1
+                WriterId = Convert.ToInt32(this.User.FindFirst("Id").Value)
             }; 
             var data = await _blogNewsService.CreateAsync(blogNews);
             if (!data)
@@ -71,6 +80,22 @@ namespace Blog.WebApi.Controllers
                 return APIResultHelper.Error("Edit failed");
             }
             return APIResultHelper.Success(data);
+        }
+
+        [HttpGet("BlogNewsPage")]
+        public async Task<APIResult> GetBlogNewsPage( int page, int size)
+        {
+            RefAsync<int> total = 0;
+            var blognews = await _blogNewsService.QueryAsync(page,size, total);
+            try
+            {
+                var blognewsDto = _mapper.Map<List<BlogNewsDto>>(blognews);
+                return APIResultHelper.Success(blognewsDto, total);
+            }
+            catch (Exception ex)
+            {
+                return APIResultHelper.Error("AutoMapper failed");
+            }
         }
     }
 }

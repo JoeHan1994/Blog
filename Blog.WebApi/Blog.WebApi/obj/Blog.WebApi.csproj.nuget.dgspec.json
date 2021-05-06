@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotNet5\\Blog.WebApi\\Blog.WebApi\\Blog.WebApi.csproj": {}
+    "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.WebApi\\Blog.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj": {
+    "D:\\v-joehan\\BLOG\\Blog.Model\\Blog.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj",
+        "projectUniqueName": "D:\\v-joehan\\BLOG\\Blog.Model\\Blog.Model.csproj",
         "projectName": "Blog.Model",
-        "projectPath": "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj",
-        "packagesPath": "C:\\Users\\v-joehan\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet5\\Blog.Model\\obj\\",
+        "projectPath": "D:\\v-joehan\\BLOG\\Blog.Model\\Blog.Model.csproj",
+        "packagesPath": "C:\\Users\\V-JOEHAN\\.nuget\\packages\\",
+        "outputPath": "D:\\v-joehan\\BLOG\\Blog.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\v-joehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\V-JOEHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,24 +65,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.21079.7\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj": {
+    "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj",
+        "projectUniqueName": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj",
         "projectName": "Blog.IRepository",
-        "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj",
-        "packagesPath": "C:\\Users\\v-joehan\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\obj\\",
+        "projectPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj",
+        "packagesPath": "C:\\Users\\V-JOEHAN\\.nuget\\packages\\",
+        "outputPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IRepository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\v-joehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\V-JOEHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,8 +98,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj": {
-                "projectPath": "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj"
+              "D:\\v-joehan\\BLOG\\Blog.Model\\Blog.Model.csproj": {
+                "projectPath": "D:\\v-joehan\\BLOG\\Blog.Model\\Blog.Model.csproj"
               }
             }
           }
@@ -124,24 +128,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.21079.7\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DotNet5\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj": {
+    "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet5\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj",
+        "projectUniqueName": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj",
         "projectName": "Blog.IService",
-        "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj",
-        "packagesPath": "C:\\Users\\v-joehan\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IService\\obj\\",
+        "projectPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj",
+        "packagesPath": "C:\\Users\\V-JOEHAN\\.nuget\\packages\\",
+        "outputPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\v-joehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\V-JOEHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -155,8 +161,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj": {
-                "projectPath": "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj"
+              "D:\\v-joehan\\BLOG\\Blog.Model\\Blog.Model.csproj": {
+                "projectPath": "D:\\v-joehan\\BLOG\\Blog.Model\\Blog.Model.csproj"
               }
             }
           }
@@ -185,24 +191,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.21079.7\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DotNet5\\Blog.WebApi\\Blog.Service\\Blog.Service.csproj": {
+    "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.Service\\Blog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet5\\Blog.WebApi\\Blog.Service\\Blog.Service.csproj",
+        "projectUniqueName": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.Service\\Blog.Service.csproj",
         "projectName": "Blog.Service",
-        "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.Service\\Blog.Service.csproj",
-        "packagesPath": "C:\\Users\\v-joehan\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet5\\Blog.WebApi\\Blog.Service\\obj\\",
+        "projectPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.Service\\Blog.Service.csproj",
+        "packagesPath": "C:\\Users\\V-JOEHAN\\.nuget\\packages\\",
+        "outputPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\v-joehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\V-JOEHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -216,11 +224,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj": {
-                "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj"
+              "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj": {
+                "projectPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj"
               },
-              "D:\\DotNet5\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj": {
-                "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj"
+              "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj": {
+                "projectPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj"
               }
             }
           }
@@ -249,24 +257,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.21079.7\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DotNet5\\Blog.WebApi\\Blog.WebApi\\Blog.WebApi.csproj": {
+    "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.WebApi\\Blog.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet5\\Blog.WebApi\\Blog.WebApi\\Blog.WebApi.csproj",
+        "projectUniqueName": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.WebApi\\Blog.WebApi.csproj",
         "projectName": "Blog.WebApi",
-        "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.WebApi\\Blog.WebApi.csproj",
-        "packagesPath": "C:\\Users\\v-joehan\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet5\\Blog.WebApi\\Blog.WebApi\\obj\\",
+        "projectPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.WebApi\\Blog.WebApi.csproj",
+        "packagesPath": "C:\\Users\\V-JOEHAN\\.nuget\\packages\\",
+        "outputPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\v-joehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\V-JOEHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -280,20 +290,20 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj": {
-                "projectPath": "D:\\DotNet5\\Blog.Model\\Blog.Model.csproj"
+              "D:\\v-joehan\\BLOG\\Blog.Model\\Blog.Model.csproj": {
+                "projectPath": "D:\\v-joehan\\BLOG\\Blog.Model\\Blog.Model.csproj"
               },
-              "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj": {
-                "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj"
+              "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj": {
+                "projectPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj"
               },
-              "D:\\DotNet5\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj": {
-                "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj"
+              "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj": {
+                "projectPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IService\\Blog.IService.csproj"
               },
-              "D:\\DotNet5\\Blog.WebApi\\Blog.Service\\Blog.Service.csproj": {
-                "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.Service\\Blog.Service.csproj"
+              "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.Service\\Blog.Service.csproj": {
+                "projectPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.Service\\Blog.Service.csproj"
               },
-              "D:\\DotNet5\\Blog.WebApi\\Repository\\Blog.Repository.csproj": {
-                "projectPath": "D:\\DotNet5\\Blog.WebApi\\Repository\\Blog.Repository.csproj"
+              "D:\\v-joehan\\BLOG\\Blog.WebApi\\Repository\\Blog.Repository.csproj": {
+                "projectPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Repository\\Blog.Repository.csproj"
               }
             }
           }
@@ -308,6 +318,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -331,24 +349,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.21079.7\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DotNet5\\Blog.WebApi\\Repository\\Blog.Repository.csproj": {
+    "D:\\v-joehan\\BLOG\\Blog.WebApi\\Repository\\Blog.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet5\\Blog.WebApi\\Repository\\Blog.Repository.csproj",
+        "projectUniqueName": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Repository\\Blog.Repository.csproj",
         "projectName": "Blog.Repository",
-        "projectPath": "D:\\DotNet5\\Blog.WebApi\\Repository\\Blog.Repository.csproj",
-        "packagesPath": "C:\\Users\\v-joehan\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet5\\Blog.WebApi\\Repository\\obj\\",
+        "projectPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Repository\\Blog.Repository.csproj",
+        "packagesPath": "C:\\Users\\V-JOEHAN\\.nuget\\packages\\",
+        "outputPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\v-joehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\V-JOEHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -362,8 +382,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj": {
-                "projectPath": "D:\\DotNet5\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj"
+              "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj": {
+                "projectPath": "D:\\v-joehan\\BLOG\\Blog.WebApi\\Blog.IRepository\\Blog.IRepository.csproj"
               }
             }
           }
@@ -398,7 +418,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.21079.7\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

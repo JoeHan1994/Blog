@@ -35,6 +35,11 @@ namespace Blog.Service
             return await _baseRepository.FindAsync(Id);
         }
 
+        public async Task<TEntity> FindAsync(Expression<Func<TEntity, bool>> func)
+        {
+            return await _baseRepository.FindAsync(func);
+        }
+
         public async Task<List<TEntity>> QueryAsync()
         {
             return await _baseRepository.QueryAsync();

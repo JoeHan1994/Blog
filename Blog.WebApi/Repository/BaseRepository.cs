@@ -17,12 +17,12 @@ namespace Blog.Repository
         {
             base.Context = DbScoped.Sugar;
             //Create DB
-            base.Context.DbMaintenance.CreateDatabase();
-            base.Context.CodeFirst.InitTables(
-                typeof(BlogNewsRepository),
-                typeof(TypeInfo),
-                typeof(WriterInfo)
-                );
+            //base.Context.DbMaintenance.CreateDatabase();
+            //base.Context.CodeFirst.InitTables(
+            //    typeof(BlogNews),
+            //    typeof(TypeInfo),
+            //    typeof(WriterInfo)
+            //    );
         }
         public async Task<bool> CreateAsync(TEntity entity)
         {
@@ -42,6 +42,11 @@ namespace Blog.Repository
         public virtual async Task<TEntity> FindAsync(int Id)
         {
             return await base.GetByIdAsync(Id);
+        }
+
+        public async Task<TEntity> FindAsync(Expression<Func<TEntity, bool>> func)
+        {
+            return await base.GetSingleAsync(func);
         }
 
         public virtual async Task<List<TEntity>> QueryAsync()

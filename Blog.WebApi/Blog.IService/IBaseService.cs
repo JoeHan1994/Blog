@@ -14,6 +14,7 @@ namespace Blog.IService
         Task<bool> DeleteAsync(int Id);
         Task<bool> EditAsync(TEntity entity);
         Task<TEntity> FindAsync(int Id);
+        Task<TEntity> FindAsync(Expression<Func<TEntity, bool>> func);
         /// <summary>
         /// Get all data
         /// </summary>
